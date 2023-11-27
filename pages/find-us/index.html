@@ -1,17 +1,72 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Де ми ?</title>
-    <link rel="stylesheet" href="../../reset.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="../../reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header" id="top">
+      <div class="desktop-header">
+        <img class="header-logo" src="../../img/logo.png" alt="logo" />
+        <nav class="header-nav">
+          <a class="header-link" href="./index.html">Головна сторінка</a>
+          <a class="header-link" href="./pages/service/index.html">Послуги</a>
+          <a class="header-link" href="./pages/about-us/index.html">Про нас</a>
+          <a class="header-link" href="./pages/find-us/index.html">Де ми ?</a>
+        </nav>
+        <button class="header-btn" onclick="redirect()">Звʼязатись</button>
+      </div>
+      <div class="mobile-header">
+        <img class="header-logo" src="../../img/logo.png" alt="logo" />
+        <h2 class="header-h">Головна сторінка</h2>
+        <img class="header-menu" src="../../img/btn-burg.png" alt="btn" />
+      </div>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="main-container-txt">
+          <h1>Де ми знаходимось ?</h1>
+          <p>
+            Галактика: Андромеда<br />
+            Сектор: 473X<br />
+            Планета: Лунаріс IV<br />
+            Космічний Термінал: Σ-37Г<br />
+          </p>
+        </div>
+        <img class="w-p" src="../../img/wh-1.png" alt="img" />
+      </div>
+      <div class="wrapper">
+        <img class="img-b" src="../../img/wh-2.png" alt="img" />
+        <button class="button">Показати на мапі</button>
+      </div>
+      <div class="main-container w-p-b ">
+        <div class="main-container-txt">
+          <p>
+            *Примітка: Будь ласка, звертайтеся за консультацією або замовленнями
+            до нашого космічного терміналу. Ми завжди на зв'язку для
+            забезпечення вам найвищого рівня обслуговування у всесвітньому
+            масштабі.
+          </p>
+        </div>
+        <img src="../../img/wh-3.png" alt="img" />
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <a href="#top"><div></div></a>
+        <h6>inc. Chisty Dim 2023</h6>
+      </div>
+    </footer>
+
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
