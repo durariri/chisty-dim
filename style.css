@@ -1,3 +1,8 @@
+a,
+button {
+  cursor: pointer;
+}
+
 .header {
   width: 100%;
 }
@@ -26,7 +31,6 @@
     height: 111px;
     margin-left: 22px;
   }
-  /* @media only screen and (max-width: 899px) and (min-width: 600px)*/
 }
 
 .header-btn {
@@ -110,4 +114,316 @@
   width: 39px;
   height: 26.464px;
   margin-right: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 110px;
+  background: #fbd4ee;
+  @media only screen and (max-width: 700px) {
+    gap: 55px;
+  }
+}
+
+main > div {
+  max-width: 1440px;
+}
+
+.container-1 {
+  display: flex;
+  width: 100%;
+  @media only screen and (max-width: 1000px) {
+    margin-top: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.container-1-img {
+  display: block;
+  width: 50%;
+}
+
+.container-1-txt {
+  padding-top: 60px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  max-width: 631px;
+  @media only screen and (max-width: 1000px) {
+    gap: 40px;
+  }
+  @media only screen and (max-width: 700px) {
+    max-width: 320px;
+  }
+}
+
+.container-1-txt > h2 {
+  color: #eb689f;
+  text-align: center;
+  font-family: Roboto Slab;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  @media only screen and (max-width: 700px) {
+    color: #eb689f;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.plain-text {
+  color: #eb689f;
+  text-align: center;
+  font-family: Roboto Slab;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  @media only screen and (max-width: 700px) {
+    color: #eb619b;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+}
+
+.container-2,
+.container-3,
+.container-4 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  @media only screen and (max-width: 700px) {
+    gap: 30px;
+  }
+}
+
+.heading {
+  color: #eb689f;
+  text-align: center;
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  @media only screen and (max-width: 700px) {
+    color: #eb689f;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.button {
+  width: 460px;
+  height: 114px;
+  border-radius: 70px;
+  background: rgba(245, 76, 175, 0.7);
+  color: #fff;
+  text-align: center;
+  font-family: Roboto Slab;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  @media only screen and (max-width: 700px) {
+    width: 193px;
+    height: 48px;
+    font-size: 15px;
+  }
+}
+
+.button:hover {
+  background: #f54caf;
+}
+
+.container-2-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.container-2-card > h3 {
+  color: #eb689f;
+  text-align: center;
+  font-family: Roboto Slab;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  @media only screen and (max-width: 700px) {
+    color: #eb689f;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.img {
+  display: block;
+  height: 556px;
+  width: 556px;
+  @media only screen and (max-width: 700px) {
+    height: 345px;
+    width: 345px;
+  }
+}
+
+.container-2-card-wr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  @media only screen and (max-width: 1130px) {
+    flex-direction: column;
+  }
+}
+
+.container-3 > div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  @media only screen and (max-width: 1130px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 60px;
+  }
+  @media only screen and (max-width: 700px) {
+    gap: 30px;
+  }
+}
+
+.container-3 > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  max-width: 588px;
+  @media only screen and (max-width: 700px) {
+    max-width: 345px;
+  }
+}
+
+.container-4 > div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  @media only screen and (max-width: 1130px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+  @media only screen and (max-width: 700px) {
+    gap: 30px;
+  }
+}
+
+.container-4 > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  max-width: 519px;
+  @media only screen and (max-width: 700px) {
+    max-width: 345px;
+  }
+}
+
+.container-4 > div > div > p {
+  text-align: left;
+}
+
+.container-4 {
+  padding-bottom: 75px;
+  @media only screen and (max-width: 700px) {
+    padding-bottom: 40px;
+  }
+}
+
+footer {
+  width: 100%;
+  background: #fbd4ee;
+}
+
+.footer-container {
+  position: relative;
+  width: 100%;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 58.75%);
+  @media only screen and (max-width: 700px) {
+    height: 47px;
+  }
+}
+
+.footer-container > h6 {
+  padding-top: 101px;
+  color: #eb689f;
+  text-align: center;
+  font-family: Roboto Slab;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  @media only screen and (max-width: 700px) {
+    padding-top: 28px;
+    color: #eb689f;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+}
+
+.footer-container > a {
+  position: absolute;
+  top: -58px;
+  @media only screen and (max-width: 700px) {
+    top: -25px;
+  }
+}
+
+.footer-container > a > div {
+  width: 82px;
+  height: 82px;
+  background-image: url("./img/up1.png");
+  @media only screen and (max-width: 700px) {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+  }
+}
+
+.footer-container > a > div:hover {
+  background-image: url("./img/up2.png");
 }
