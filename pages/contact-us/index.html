@@ -9,9 +9,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+    integrity="sha512-dT2zq32i22+XYA30zG1lSpvkOXiKXCErpf0ixcMAwscSNj0T2ylkzBXeI/KpD0jQ+OZu0F2h3D6ffTR0t2dfWA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
 </head>
 <body>
-    <h1>Hello</h1>
+    <header class="header" id="top">
+      <div class="desktop-header">
+        <img class="header-logo" src="../../img/logo.png" alt="logo" />
+        <nav class="header-nav">
+          <a class="header-link" href="./index.html">Головна сторінка</a>
+          <a class="header-link" href="./pages/service/index.html">Послуги</a>
+          <a class="header-link" href="./pages/about-us/index.html">Про нас</a>
+          <a class="header-link" href="./pages/find-us/index.html">Де ми ?</a>
+        </nav>
+        <button class="header-btn" onclick="redirect()">Звʼязатись</button>
+      </div>
+      <div class="mobile-header">
+        <img class="header-logo" src="../../img/logo.png" alt="logo" />
+        <h2 class="header-h">Головна сторінка</h2>
+        <img class="header-menu" src="../../img/btn-burg.png" alt="btn" />
+      </div>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="main-container-txt">
+          <h1>Звʼязатись</h1>
+          <h3>Маєте питання чи бажаєте замовити наші послуги?</h3>
+          <input type="text" id="text-input" placeholder="Написати повідомлення">
+        <button class="send-button">&#8594;</button>
+        <h3>Слідкуйте за нами в соц.мережах</h3>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook">facebook</i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter">twitter</i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram">instagram</i></a>
+        </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <a href="#top"><div></div></a>
+        <h6>inc. Chisty Dim 2023</h6>
+      </div>
+    </footer>
     <script src="./index.js"></script>
 </body>
 </html>
