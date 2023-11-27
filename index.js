@@ -1,0 +1,1 @@
+const redirect = () => window.location.href = "./pages/contact-us/index.html";
