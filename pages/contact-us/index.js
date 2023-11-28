@@ -10,3 +10,6 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
 function clearInput() {
     document.getElementById('text-input').value = '';
 }
+
+const redirect = () => window.location.href = "./pages/contact-us/index.html";
+
